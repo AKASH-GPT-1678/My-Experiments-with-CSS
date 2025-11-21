@@ -1,0 +1,20 @@
+#firefox {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    filter: grayscale(20%);
+    filter: opacity(25%) blur(5px);
+
+
+    border-radius: 10px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
